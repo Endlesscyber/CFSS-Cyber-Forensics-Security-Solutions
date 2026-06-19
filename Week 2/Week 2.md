@@ -1,12 +1,10 @@
-<!-- Page 1 -->
+### Week 2: Web & Client-Side Attacks
 
-Week 2: Web & Client-Side Attacks
+#### ● Goal: Exploit the human element and web vulnerabilities.
 
-● Goal: Exploit the human element and web vulnerabilities.
+#### ● Tasks:
 
-● Tasks:
-
-○ Social Engineering: Use the Social Engineering Toolkit (SET) to create a fake  login page for a popular social media site
+#### ○ Social Engineering: Use the Social Engineering Toolkit (SET) to create a fake  login page for a popular social media site
 
 The Social Engineering Toolkit (SET) is an open-source penetration testing framework designed to  simulate social engineering attacks in a controlled environment.
 
@@ -26,7 +24,7 @@ Examples include:
 
 •  Simulating real-world attack scenarios
 
-What Can SET Do?
+#### What Can SET Do?
 
 SET provides features such as:
 
@@ -40,14 +38,13 @@ SET provides features such as:
 
 •  Browser-based attack simulations
 
-Where Is It Used?
+#### Where Is It Used?
 
 SET is commonly used for:
 
 •  Ethical hacking
 
 •  Red team exercises
-<!-- Page 2 -->
 
 •  Security awareness training
 
@@ -59,8 +56,8 @@ Open terminal and run:
 
 sudo setoolkit
 
-![Image from Page 2](Week 2_images/page_2_img_6.png)
-<!-- Page 3 -->
+<img src="https://github.com/Endlesscyber/CFSS-Cyber-Forensics-Security-Solutions/blob/1963cb6f5c3fc4a005e380953de8f340a3347b16/Week%202/Week%202_images/page_2_img_6.png">
+
 
 Step 2: Select Social Engineering Attacks
 
@@ -70,15 +67,15 @@ From the main menu select:
 
 Step 3: Choose Website Attack Vectors  2) Website Attack Vectors
 
-![Image from Page 3](Week 2_images/page_3_img_6.png)
-<!-- Page 4 -->
+<img src="https://github.com/Endlesscyber/CFSS-Cyber-Forensics-Security-Solutions/blob/1963cb6f5c3fc4a005e380953de8f340a3347b16/Week%202/Week%202_images/page_3_img_6.png">
+
 
 Step 4: Select Credential Harvester Attack Method  3) Credential Harvester Attack Method
 
 This method captures credentials entered into the cloned website.
 
-![Image from Page 4](Week 2_images/page_4_img_4.jpeg)
-<!-- Page 5 -->
+<img src="https://github.com/Endlesscyber/CFSS-Cyber-Forensics-Security-Solutions/blob/1963cb6f5c3fc4a005e380953de8f340a3347b16/Week%202/Week%202_images/page_4_img_4.jpeg">
+
 
 Step 5: Select Site Cloner  2) Site Cloner
 
@@ -88,10 +85,10 @@ Step 6: Enter IP Address
 
 Enter the IP address of the attacker machine (Kali Linux).
 
-![Image from Page 5](Week 2_images/page_5_img_8.png)
+<img src="https://github.com/Endlesscyber/CFSS-Cyber-Forensics-Security-Solutions/blob/1963cb6f5c3fc4a005e380953de8f340a3347b16/Week%202/Week%202_images/page_5_img_8.png">
 
-![Image from Page 5](Week 2_images/page_5_img_9.png)
-<!-- Page 6 -->
+
+<img src="https://github.com/Endlesscyber/CFSS-Cyber-Forensics-Security-Solutions/blob/1963cb6f5c3fc4a005e380953de8f340a3347b16/Week%202/Week%202_images/page_5_img_9.png">
 
 You can check it using:
 
@@ -111,8 +108,7 @@ http://example.com
 
 SET will clone the login page and start a local web server.
 
-![Image from Page 6](Week 2_images/page_6_img_13.png)
-<!-- Page 7 -->
+<img src="https://github.com/Endlesscyber/CFSS-Cyber-Forensics-Security-Solutions/blob/1963cb6f5c3fc4a005e380953de8f340a3347b16/Week%202/Week%202_images/page_6_img_13.png">
 
 Step 8: Wait for Victim Interaction
 
@@ -130,10 +126,11 @@ Press:
 
 SET generates a report containing captured information.
 
-![Image from Page 7](Week 2_images/page_7_img_20.png)
-<!-- Page 8 -->
+<img src="https://github.com/Endlesscyber/CFSS-Cyber-Forensics-Security-Solutions/blob/1963cb6f5c3fc4a005e380953de8f340a3347b16/Week%202/Week%202_images/page_7_img_20.png">
 
-○ Web Hacking: Perform a Command Injection attack on DVWA to  view the /etc/passwd file of the server.
+
+
+### ○ Web Hacking: Perform a Command Injection attack on DVWA to  view the /etc/passwd file of the server.
 
 DVWA (Damn Vulnerable Web Application)
 
@@ -151,8 +148,7 @@ DVWA is used to:
 
 •  Test security tools like Burp Suite, OWASP ZAP, etc
 
-![Image from Page 8](Week 2_images/page_8_img_14.png)
-<!-- Page 9 -->
+<img src="https://github.com/Endlesscyber/CFSS-Cyber-Forensics-Security-Solutions/blob/1963cb6f5c3fc4a005e380953de8f340a3347b16/Week%202/Week%202_images/page_8_img_14.png">
 
 Open Command Injection Module
 
@@ -170,8 +166,7 @@ You will see normal ping results.
 
 If the application is vulnerable, it will display the system username along with the ping  result.
 
-![Image from Page 9](Week 2_images/page_9_img_11.png)
-<!-- Page 10 -->
+<img src="https://github.com/Endlesscyber/CFSS-Cyber-Forensics-Security-Solutions/blob/1963cb6f5c3fc4a005e380953de8f340a3347b16/Week%202/Week%202_images/page_9_img_11.png">
 
 So I use the payload to see the files
 
@@ -183,10 +178,10 @@ First I created a port connection from Netcat on port no 4242 so that the connec
 
 Command: nc -lvnp 4242
 
-![Image from Page 10](Week 2_images/page_10_img_8.png)
+<img src="https://github.com/Endlesscyber/CFSS-Cyber-Forensics-Security-Solutions/blob/1963cb6f5c3fc4a005e380953de8f340a3347b16/Week%202/Week%202_images/page_10_img_8.png">
 
-![Image from Page 10](Week 2_images/page_10_img_9.jpeg)
-<!-- Page 11 -->
+<img src="https://github.com/Endlesscyber/CFSS-Cyber-Forensics-Security-Solutions/blob/1963cb6f5c3fc4a005e380953de8f340a3347b16/Week%202/Week%202_images/page_10_img_9.jpeg">
+
 
 Once the listening connection is established, you can get full access to it and then you can view any  file by using commands like I have done to view /etc/passwd
 
@@ -200,10 +195,9 @@ This vulnerability occurs because the application does not properly validate or 
 
 The experiment highlights the importance of proper input validation, secure coding practices, and  server-side filtering to prevent command injection attacks in real-world web applications.
 
-![Image from Page 11](Week 2_images/page_11_img_11.png)
-<!-- Page 12 -->
+<img src="https://github.com/Endlesscyber/CFSS-Cyber-Forensics-Security-Solutions/blob/1963cb6f5c3fc4a005e380953de8f340a3347b16/Week%202/Week%202_images/page_11_img_11.png">
 
-○ Payload Delivery: Create a malicious PDF or Office document that  triggers a reverse shell when opened
+### ○ Payload Delivery: Create a malicious PDF or Office document that  triggers a reverse shell when opened
 
 Steps to Create PDF from Text File in Linux
 
@@ -223,14 +217,15 @@ Step 2: Convert TXT to PDF
 
 Step 3: Check the PDF
 
-![Image from Page 12](Week 2_images/page_12_img_17.png)
+<img src="https://github.com/Endlesscyber/CFSS-Cyber-Forensics-Security-Solutions/blob/1963cb6f5c3fc4a005e380953de8f340a3347b16/Week%202/Week%202_images/page_12_img_17.png">
 
-![Image from Page 12](Week 2_images/page_12_img_18.png)
 
-![Image from Page 12](Week 2_images/page_12_img_19.png)
-<!-- Page 13 -->
+<img src="https://github.com/Endlesscyber/CFSS-Cyber-Forensics-Security-Solutions/blob/1963cb6f5c3fc4a005e380953de8f340a3347b16/Week%202/Week%202_images/page_12_img_18.png">
 
-Steps Performed Using SET Toolkit For Payload Delivery
+<img src="https://github.com/Endlesscyber/CFSS-Cyber-Forensics-Security-Solutions/blob/1963cb6f5c3fc4a005e380953de8f340a3347b16/Week%202/Week%202_images/page_12_img_19.png">
+
+
+#### Steps Performed Using SET Toolkit For Payload Delivery
 
 Step 1: Open Terminal
 
@@ -250,17 +245,16 @@ Step 4: Select Attack Vector
 
 Select Spear Phising Attack vector
 
-![Image from Page 13](Week 2_images/page_13_img_16.jpeg)
-<!-- Page 14 -->
+<img src="https://github.com/Endlesscyber/CFSS-Cyber-Forensics-Security-Solutions/blob/1963cb6f5c3fc4a005e380953de8f340a3347b16/Week%202/Week%202_images/page_13_img_16.jpeg">
 
 Step 5:  Click On 1 Perform Mass Email Attack
 
 Step 6: Then write 13 Adobe PDF Embbed Exe File
 
-![Image from Page 14](Week 2_images/page_14_img_6.jpeg)
+<img src="https://github.com/Endlesscyber/CFSS-Cyber-Forensics-Security-Solutions/blob/1963cb6f5c3fc4a005e380953de8f340a3347b16/Week%202/Week%202_images/page_14_img_6.jpeg">
 
-![Image from Page 14](Week 2_images/page_14_img_7.png)
-<!-- Page 15 -->
+<img src="https://github.com/Endlesscyber/CFSS-Cyber-Forensics-Security-Solutions/blob/1963cb6f5c3fc4a005e380953de8f340a3347b16/Week%202/Week%202_images/page_14_img_7.png">
+
 
 STEP 7: Then Select 1 Select Your Own PDF.
 
@@ -268,14 +262,16 @@ STEP 8: Enter the Path of the PDF file
 
 STEP 9:  Then provide the LHOST and Port no which you run the payload
 
-![Image from Page 15](Week 2_images/page_15_img_10.png)
+<img src="https://github.com/Endlesscyber/CFSS-Cyber-Forensics-Security-Solutions/blob/1963cb6f5c3fc4a005e380953de8f340a3347b16/Week%202/Week%202_images/page_15_img_10.png">
 
-![Image from Page 15](Week 2_images/page_15_img_11.png)
 
-![Image from Page 15](Week 2_images/page_15_img_12.jpeg)
+<img src="https://github.com/Endlesscyber/CFSS-Cyber-Forensics-Security-Solutions/blob/1963cb6f5c3fc4a005e380953de8f340a3347b16/Week%202/Week%202_images/page_15_img_11.png">
 
-![Image from Page 15](Week 2_images/page_15_img_13.png)
-<!-- Page 16 -->
+
+<img src="https://github.com/Endlesscyber/CFSS-Cyber-Forensics-Security-Solutions/blob/1963cb6f5c3fc4a005e380953de8f340a3347b16/Week%202/Week%202_images/page_15_img_12.jpeg">
+
+
+<img src="https://github.com/Endlesscyber/CFSS-Cyber-Forensics-Security-Solutions/blob/1963cb6f5c3fc4a005e380953de8f340a3347b16/Week%202/Week%202_images/page_15_img_13.png">
 
 STEP 10: After that they will loading and we provide the sender email and receive email address.
 
@@ -283,10 +279,10 @@ STEP 11:  Now They setup the listening ports.
 
 STEP 12:  Then the connection is got established.
 
-![Image from Page 16](Week 2_images/page_16_img_7.png)
+<img src="https://github.com/Endlesscyber/CFSS-Cyber-Forensics-Security-Solutions/blob/1963cb6f5c3fc4a005e380953de8f340a3347b16/Week%202/Week%202_images/page_16_img_7.png">
 
-![Image from Page 16](Week 2_images/page_16_img_8.jpeg)
-<!-- Page 17 -->
+
+<img src="https://github.com/Endlesscyber/CFSS-Cyber-Forensics-Security-Solutions/blob/1963cb6f5c3fc4a005e380953de8f340a3347b16/Week%202/Week%202_images/page_16_img_8.jpeg">
 
 Step 13: Launch Metasploit Console
 
@@ -296,12 +292,12 @@ Step 14: Select a Generic Handler Module
 
 A handler module was selected to manage incoming connections from a test payload.  This module is used to listen for and handle reverse connections during security testing.
 
-![Image from Page 17](Week 2_images/page_17_img_10.png)
+<img src="https://github.com/Endlesscyber/CFSS-Cyber-Forensics-Security-Solutions/blob/1963cb6f5c3fc4a005e380953de8f340a3347b16/Week%202/Week%202_images/page_17_img_10.png">
 
-![Image from Page 17](Week 2_images/page_17_img_11.png)
+<img src="https://github.com/Endlesscyber/CFSS-Cyber-Forensics-Security-Solutions/blob/1963cb6f5c3fc4a005e380953de8f340a3347b16/Week%202/Week%202_images/page_17_img_11.png">
 
-![Image from Page 17](Week 2_images/page_17_img_12.png)
-<!-- Page 18 -->
+<img src="https://github.com/Endlesscyber/CFSS-Cyber-Forensics-Security-Solutions/blob/1963cb6f5c3fc4a005e380953de8f340a3347b16/Week%202/Week%202_images/page_17_img_12.png">
+
 
 Step 15: Configure Payload Type
 
@@ -325,20 +321,23 @@ Step 18: Start the Handler
 
 The handler was executed to wait for incoming connections from the test payload within the  controlled environment.
 
+<img src="https://github.com/Endlesscyber/CFSS-Cyber-Forensics-Security-Solutions/blob/1963cb6f5c3fc4a005e380953de8f340a3347b16/Week%202/Week%202_images/page_18_img_20.jpeg">
+
+
+<img src="https://github.com/Endlesscyber/CFSS-Cyber-Forensics-Security-Solutions/blob/1963cb6f5c3fc4a005e380953de8f340a3347b16/Week%202/Week%202_images/page_18_img_21.jpeg">
+
+
+<img src="https://github.com/Endlesscyber/CFSS-Cyber-Forensics-Security-Solutions/blob/1963cb6f5c3fc4a005e380953de8f340a3347b16/Week%202/Week%202_images/page_18_img_22.jpeg">
+
+
 Conclusion
 
 In this practical, we explored the basic working of the Metasploit Framework using the msfconsole  interface in a controlled lab environment. We understood how a handler is configured, how payload  settings are reviewed, and how network parameters are verified before execution.
 
 This experiment helped us understand how reverse connections are managed during penetration  testing and how attackers may attempt to gain remote access. It also highlighted the importance of  secure configurations, firewall rules, and updated systems to prevent unauthorized access.
 
-![Image from Page 18](Week 2_images/page_18_img_20.jpeg)
 
-![Image from Page 18](Week 2_images/page_18_img_21.jpeg)
-
-![Image from Page 18](Week 2_images/page_18_img_22.jpeg)
-<!-- Page 19 -->
-
-Target Question: "How can you bypass a basic client-side JavaScript  validation to submit malicious code into a web form?"
+#### Target Question: "How can you bypass a basic client-side JavaScript  validation to submit malicious code into a web form?"
 
 To bypass basic client-side JavaScript validation on a web form (e.g., checks for XSS payloads, invalid  characters, or length limits) during a pentest, focus on techniques that evade the JS logic without  triggering it or by exploiting its weaknesses. Client-side validation is inherently insecure since it runs  in the user's browser and can be fully controlled. Here's how to do it step-by-step, assuming you're  testing a form with JS that blocks <script>alert(1)</script> or similar.
 
@@ -369,11 +368,3 @@ To bypass basic client-side JavaScript validation on a web form (e.g., checks fo
 •  Intercept the request with Burp (Proxy tab > Intercept on).
 
 •  Submit the form normally (JS validates client-side), but when Burp captures the POST/GET,  drop the JS payload in and resend.
-
-Prepared By: Sachin
-
-Company: CFSS (Cyber Security & Forensics Services)
-
-Domain: Cyber Security & Ethical Hacking
-
-Role: Ethical Hacking Intern
