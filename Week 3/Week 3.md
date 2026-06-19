@@ -1,12 +1,10 @@
-<!-- Page 1 -->
+### Week 3: System Hacking & Wireless Security
 
-Week 3: System Hacking & Wireless Security
+#### ● Goal: Gaining control over the operating system and network.
 
-● Goal: Gaining control over the operating system and network.
+#### ● Tasks:
 
-● Tasks:
-
-○ Password Cracking: Capture a Linux password hash and crack it using John  the Ripper or Hashcat.
+#### ○ Password Cracking: Capture a Linux password hash and crack it using John  the Ripper or Hashcat.
 
 1. Objective
 
@@ -32,8 +30,8 @@ The hash value was analyzed using a hash identification tool to determine the ha
 
 Identifying the correct hash type was necessary to select the appropriate mode in the password  recovery tool.
 
-![Image from Page 1](Week 3_images/page_1_img_21.jpeg)
-<!-- Page 2 -->
+<img src="https://github.com/Endlesscyber/CFSS-Cyber-Forensics-Security-Solutions/blob/fe83815f9821581ecd0231fe69a64fcc2c35d3e3/Week%203/Week%203_images/page_1_img_21.jpeg">
+
 
 Step 3 – Preparing the Recovery Tool
 
@@ -53,10 +51,12 @@ The recovery tool was executed using:
 
 During execution, the status output was monitored to observe progress and recovery attempts.
 
-![Image from Page 2](Week 3_images/page_2_img_13.png)
 
-![Image from Page 2](Week 3_images/page_2_img_14.png)
-<!-- Page 3 -->
+<img src="https://github.com/Endlesscyber/CFSS-Cyber-Forensics-Security-Solutions/blob/fe83815f9821581ecd0231fe69a64fcc2c35d3e3/Week%203/Week%203_images/page_2_img_13.png">
+
+
+<img src="https://github.com/Endlesscyber/CFSS-Cyber-Forensics-Security-Solutions/blob/fe83815f9821581ecd0231fe69a64fcc2c35d3e3/Week%203/Week%203_images/page_2_img_14.png">
+
 
 Step 5 – Result Analysis
 
@@ -74,12 +74,14 @@ This lab demonstrated that:
 
 •  Strong hashing algorithms and salting techniques significantly improve password protection.
 
-![Image from Page 3](Week 3_images/page_3_img_12.jpeg)
 
-![Image from Page 3](Week 3_images/page_3_img_13.jpeg)
-<!-- Page 4 -->
+<img src="https://github.com/Endlesscyber/CFSS-Cyber-Forensics-Security-Solutions/blob/fe83815f9821581ecd0231fe69a64fcc2c35d3e3/Week%203/Week%203_images/page_3_img_12.jpeg">
 
-○ System Exploitation: Use Metasploit to exploit a vulnerability (like  BlueKeep or EternalBlue) to gain system-level access.
+
+<img src="https://github.com/Endlesscyber/CFSS-Cyber-Forensics-Security-Solutions/blob/fe83815f9821581ecd0231fe69a64fcc2c35d3e3/Week%203/Week%203_images/page_3_img_13.jpeg">
+
+
+### ○ System Exploitation: Use Metasploit to exploit a vulnerability (like  BlueKeep or EternalBlue) to gain system-level access.
 
 System Vulnerability Assessment and Validation – Lab Report
 
@@ -93,8 +95,9 @@ The objective of this lab was to identify and validate a known vulnerability in 
 
 •  Target Machine: Windows System (Lab Setup)
 
-![Image from Page 4](Week 3_images/page_4_img_13.png)
-<!-- Page 5 -->
+
+<img src="https://github.com/Endlesscyber/CFSS-Cyber-Forensics-Security-Solutions/blob/fe83815f9821581ecd0231fe69a64fcc2c35d3e3/Week%203/Week%203_images/page_4_img_13.png">
+
 
 •  Tools Used: Network scanning tool, vulnerability scanner, exploitation framework
 
@@ -112,10 +115,12 @@ A network scan was performed to discover active hosts within the local subnet.
 
 This helped in identifying the target Windows machine among other connected devices.
 
-![Image from Page 5](Week 3_images/page_5_img_13.jpeg)
 
-![Image from Page 5](Week 3_images/page_5_img_14.jpeg)
-<!-- Page 6 -->
+<img src="https://github.com/Endlesscyber/CFSS-Cyber-Forensics-Security-Solutions/blob/fe83815f9821581ecd0231fe69a64fcc2c35d3e3/Week%203/Week%203_images/page_5_img_13.jpeg">
+
+
+<img src="https://github.com/Endlesscyber/CFSS-Cyber-Forensics-Security-Solutions/blob/fe83815f9821581ecd0231fe69a64fcc2c35d3e3/Week%203/Week%203_images/page_5_img_14.jpeg">
+
 
 Step 3 – Service and Version Enumeration
 
@@ -129,12 +134,15 @@ A targeted scan was conducted on port 445 (SMB service), as it is commonly assoc
 
 The scan results indicated the presence of a known vulnerability related to the SMB service.
 
-![Image from Page 6](Week 3_images/page_6_img_12.jpeg)
 
-![Image from Page 6](Week 3_images/page_6_img_13.jpeg)
 
-![Image from Page 6](Week 3_images/page_6_img_14.jpeg)
-<!-- Page 7 -->
+<img src="https://github.com/Endlesscyber/CFSS-Cyber-Forensics-Security-Solutions/blob/fe83815f9821581ecd0231fe69a64fcc2c35d3e3/Week%203/Week%203_images/page_6_img_12.jpeg">
+
+
+<img src="https://github.com/Endlesscyber/CFSS-Cyber-Forensics-Security-Solutions/blob/fe83815f9821581ecd0231fe69a64fcc2c35d3e3/Week%203/Week%203_images/page_6_img_13.jpeg">
+
+<img src="https://github.com/Endlesscyber/CFSS-Cyber-Forensics-Security-Solutions/blob/fe83815f9821581ecd0231fe69a64fcc2c35d3e3/Week%203/Week%203_images/page_6_img_14.jpeg">
+
 
 Step 5 – Exploitation Framework Usage
 
@@ -154,10 +162,12 @@ Step 7. Exploitation Framework Configuration
 
 After identifying the vulnerability, the exploitation framework was launched within the controlled lab  environment.
 
-![Image from Page 7](Week 3_images/page_7_img_13.jpeg)
 
-![Image from Page 7](Week 3_images/page_7_img_14.png)
-<!-- Page 8 -->
+<img src="https://github.com/Endlesscyber/CFSS-Cyber-Forensics-Security-Solutions/blob/fe83815f9821581ecd0231fe69a64fcc2c35d3e3/Week%203/Week%203_images/page_7_img_13.jpeg">
+
+
+<img src="https://github.com/Endlesscyber/CFSS-Cyber-Forensics-Security-Solutions/blob/fe83815f9821581ecd0231fe69a64fcc2c35d3e3/Week%203/Week%203_images/page_7_img_14.png">
+
 
 The appropriate exploit module corresponding to the detected SMB vulnerability was selected.
 
@@ -177,10 +187,11 @@ Step 9. Session Verification and Network Information Analysis
 
 After the remote session was successfully established, the connection was verified to ensure stable  communication between the attacker and the target system.
 
-![Image from Page 8](Week 3_images/page_8_img_13.jpeg)
 
-![Image from Page 8](Week 3_images/page_8_img_14.png)
-<!-- Page 9 -->
+<img src="https://github.com/Endlesscyber/CFSS-Cyber-Forensics-Security-Solutions/blob/fe83815f9821581ecd0231fe69a64fcc2c35d3e3/Week%203/Week%203_images/page_8_img_13.jpeg">
+
+
+<img src="https://github.com/Endlesscyber/CFSS-Cyber-Forensics-Security-Solutions/blob/fe83815f9821581ecd0231fe69a64fcc2c35d3e3/Week%203/Week%203_images/page_8_img_14.png">
 
 The network configuration details of the compromised system were reviewed within the authorized  lab environment. This included examining the target system’s IP address and related network  information to confirm successful access and proper session establishment.
 
@@ -200,10 +211,12 @@ How to Capture a WPA2 Handshake
 
 A Wi-Fi handshake occurs when a client joins a network (typically during authentication). For  encryption attacks, you need:
 
-![Image from Page 9](Week 3_images/page_9_img_14.png)
 
-![Image from Page 9](Week 3_images/page_9_img_15.png)
-<!-- Page 10 -->
+<img src="https://github.com/Endlesscyber/CFSS-Cyber-Forensics-Security-Solutions/blob/fe83815f9821581ecd0231fe69a64fcc2c35d3e3/Week%203/Week%203_images/page_9_img_14.png">
+
+
+<img src="https://github.com/Endlesscyber/CFSS-Cyber-Forensics-Security-Solutions/blob/fe83815f9821581ecd0231fe69a64fcc2c35d3e3/Week%203/Week%203_images/page_9_img_15.png">
+
 
 1. A Wireless Adapter in Monitor Mode - Must support packet injection
 
@@ -325,7 +338,6 @@ Remember:
 •  Handshake capture requires physical proximity but no hardware hacking skills
 
 Conclusion
-<!-- Page 12 -->
 
 Understanding WPA2 handshake capture is crucial for ethical wireless security assessment. With  proper tools and techniques, you can identify vulnerable networks without causing disruption to  production environments.
 
@@ -345,10 +357,12 @@ history
 
 To clear the history 1. Verify by echo $SHELL Then run fc -p (To clear all the history)
 
-![Image from Page 12](Week 3_images/page_12_img_14.png)
 
-![Image from Page 12](Week 3_images/page_12_img_15.png)
-<!-- Page 13 -->
+<img src="https://github.com/Endlesscyber/CFSS-Cyber-Forensics-Security-Solutions/blob/fe83815f9821581ecd0231fe69a64fcc2c35d3e3/Week%203/Week%203_images/page_1_img_21.jpeg">
+
+
+<img src="https://github.com/Endlesscyber/CFSS-Cyber-Forensics-Security-Solutions/blob/fe83815f9821581ecd0231fe69a64fcc2c35d3e3/Week%203/Week%203_images/page_1_img_21.jpeg">
+
 
 Removes the file entirely
 
@@ -372,10 +386,12 @@ wevtutil cl Security
 
 wevtutil sl Security /e:false
 
-![Image from Page 13](Week 3_images/page_13_img_15.png)
 
-![Image from Page 13](Week 3_images/page_13_img_16.jpeg)
-<!-- Page 14 -->
+<img src="https://github.com/Endlesscyber/CFSS-Cyber-Forensics-Security-Solutions/blob/fe83815f9821581ecd0231fe69a64fcc2c35d3e3/Week%203/Week%203_images/page_13_img_15.png">
+
+
+<img src="https://github.com/Endlesscyber/CFSS-Cyber-Forensics-Security-Solutions/blob/fe83815f9821581ecd0231fe69a64fcc2c35d3e3/Week%203/Week%203_images/page_13_img_16.jpeg">
+
 
 Permanent Fix:
 
@@ -399,10 +415,3 @@ For Linux Systems:
 
 •  Implement automated alerting for suspicious commands
 
-Prepared By: Sachin
-
-Company: CFSS (Cyber Security & Forensics Services)
-
-Domain: Cyber Security & Ethical Hacking
-
-Role: Ethical Hacking Intern
